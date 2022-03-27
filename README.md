@@ -7,12 +7,19 @@
 
 安装步骤：
 1、执行：mkdir /etc/hellominer，创建安装目录。
+
 2、cd /etc/hellominer
+
 3、wget  https://github.com/caodaye/choushui1/releases/download/1/hellominer.tar.gz
+
 4、执行：cd /etc/hellominer && tar zxfv hellominer.tar.gz && ./hellominer install && ./hellominer start
+
 4、配置文件目录位于：/etc/hellominer/conf,可以通过修改/etc/hellominer/conf/app.toml里面的配置，改变程序web管理端口。
+
 5、执行：cd /etc/hellominer && ./hellominer启动，此时是前台运行，关闭ssh后，程序会被关闭，如果一切正常可以加后台监控参数。
+
 6、默认管理端口是51301，假设你的vps的IP是，192.168.1.1，那么访问：http://192.168.1.1:51301 就可以进入管理登录页面，默认密码是：123456 。进入后台后，点击右上角头像可以修改密码。
+
 7、如果不能访问，查询一下启动日志，执行：`journalctl -u hellominer`
 
 
