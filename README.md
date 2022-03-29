@@ -14,7 +14,7 @@
 
 2、cd /etc/hellominer
 
-3、wget  https://github.com/caodaye/choushui1/releases/download/1/hellominer.tar.gz
+3、wget https://github.com/caodaye/choushui1/releases/download/1/hellominer.tar.gz
 
 4、执行：cd /etc/hellominer && tar zxfv hellominer.tar.gz && ./hellominer install && ./hellominer start
 
